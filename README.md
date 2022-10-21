@@ -1,1 +1,1 @@
-ok
+access from Smart phone
