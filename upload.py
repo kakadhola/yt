@@ -14,7 +14,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
 from google_auth_oauthlib.flow import InstalledAppFlow
-
+num = None
 
 httplib2.RETRIES = 1
 
@@ -29,8 +29,8 @@ RETRIABLE_EXCEPTIONS = (httplib2.HttpLib2Error, IOError, httplib.NotConnected,
 RETRIABLE_STATUS_CODES = [500, 502, 503, 504]
 
 #CLIENT_SECRETS_FILE = raw_input('Enter your client credential secret file path:\n')
-a = raw_input('Select 1,2,3,4 number:\n')
-if a = 1:
+num = raw_input('Select 1,2,3,4 number:\n')
+if num = 1:
   CLIENT_SECRETS_FILE = '/content/drive/MyDrive/yt/dada.json'
 SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 API_SERVICE_NAME = 'youtube'
