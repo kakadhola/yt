@@ -29,8 +29,9 @@ RETRIABLE_EXCEPTIONS = (httplib2.HttpLib2Error, IOError, httplib.NotConnected,
 RETRIABLE_STATUS_CODES = [500, 502, 503, 504]
 
 #CLIENT_SECRETS_FILE = raw_input('Enter your client credential secret file path:\n')
-CLIENT_SECRETS_FILE = raw_input('Enter your client credential secret file path:\n')
-
+a = raw_input('Select 1,2,3,4 number:\n')
+if a = 1:
+  CLIENT_SECRETS_FILE = '/content/drive/MyDrive/yt/dada.json'
 SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 API_SERVICE_NAME = 'youtube'
 API_VERSION = 'v3'
